@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "pdfium/fpdfview.h"
+
 #if _WIN32
 #include <windows.h>
 #else

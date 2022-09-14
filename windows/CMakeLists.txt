@@ -19,5 +19,6 @@ set(smart_pdf_bundled_libraries
   # Defined in ../src/CMakeLists.txt.
   # This can be changed to accomodate different builds.
   $<TARGET_FILE:smart_pdf>
+  "${CMAKE_CURRENT_SOURCE_DIR}/pdfium/bin/pdfium.dll"
   PARENT_SCOPE
 )
